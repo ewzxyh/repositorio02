@@ -1,0 +1,8 @@
+git init
+git config --global .user.name "Ewzxyh"
+git config --global .user.email "yoshidaenzo@hotmail.com"
+git status
+git add teste.txt
+git config --list
+git config --global init.defaultBranch main
+note pad teste.txt
