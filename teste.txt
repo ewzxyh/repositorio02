@@ -1,0 +1,53 @@
+git init (cria repositório para ser controlado) (primeira coisa)
+git config --global .user.name "Ewzxyh"
+git config --global .user.email "yoshidaenzo@hotmail.com"
+git status
+git add teste.txt
+git add . (pega todos os arquivos da pasta para ser controlado)git rm --cached teste.txt (tirar arquivo da lista de controlados)
+git config --list
+git config --global init.defaultBranch main
+note pad teste.txt
+cp teste.txt teste2.txt (copiar arquivo em outro)
+git commit -m "Primeiro commit"
+
+--commit no github (criando novo repositorio)
+
+git init
+git add README.md
+git commit -m "Primeiro commit"
+git branch -M main
+git remote add origin https://github.com/ewzxyh/GitBasico.git
+git push -u origin main
+
+--commit no github (repositorio existente)
+
+git remote add origin https://github.com/ewzxyh/GitBasico.git
+git branch -M main
+git push -u origin main
+
+git restore --staged texto.txt (to unstage)
+git restore texto.txt
+
+git log
+git log --oneline
+
+==================================== GITHUB
+git init
+
+echo "# git" >> README.md
+
+git add README.md
+
+git commit -m "primeiro commit"
+
+git branch -M main
+
+git remote add origin https://github.com/Ewzxyh/git.git
+
+git remote set-url origin https://github.com/Ewzxyh/git.git
+
+git push -u origin main
+
+================================= GIT HUB CLONE
+
+git clone 
